@@ -13,7 +13,7 @@ package cluster
 
 import (
 	"fmt"
-	"github.com/mattbaird/elastigo/api"
+	"github.com/longnguyen11288/elastigo/api"
 	"net/url"
 	"strconv"
 	"strings"

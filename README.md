@@ -1,14 +1,14 @@
 elastigo 
 --------
-[![Total views](https://sourcegraph.com/api/repos/github.com/mattbaird/elastigo/counters/views.png)](https://sourcegraph.com/github.com/mattbaird/elastigo)
+[![Total views](https://sourcegraph.com/api/repos/github.com/longnguyen11288/elastigo/counters/views.png)](https://sourcegraph.com/github.com/longnguyen11288/elastigo)
 
 [![Build Status][1]][2]
 
-[1]: https://drone.io/github.com/mattbaird/elastigo/status.png
-[2]: https://drone.io/github.com/mattbaird/elastigo/latest
+[1]: https://drone.io/github.com/longnguyen11288/elastigo/status.png
+[2]: https://drone.io/github.com/longnguyen11288/elastigo/latest
 
 
-A Go (Golang) based Elasticsearch client, implements core api for Indexing and searching.   GoDoc http://godoc.org/github.com/mattbaird/elastigo
+A Go (Golang) based Elasticsearch client, implements core api for Indexing and searching.   GoDoc http://godoc.org/github.com/longnguyen11288/elastigo
 
 To get the Chef based Vagrantfile working, be sure to pull like so::
 
@@ -68,8 +68,8 @@ Adding content to Elasticsearch
 
 examples:
 
-    import "github.com/mattbaird/elastigo/api"
-    import "github.com/mattbaird/elastigo/core"
+    import "github.com/longnguyen11288/elastigo/api"
+    import "github.com/longnguyen11288/elastigo/core"
 
     type Tweet struct {
       User     string    `json:"user"`
@@ -109,8 +109,8 @@ Search DSL Examples
 
 A Faceted, ranged Search using the `Search DSL` :
 
-    import "github.com/mattbaird/elastigo/api"
-    import "github.com/mattbaird/elastigo/core"
+    import "github.com/longnguyen11288/elastigo/api"
+    import "github.com/longnguyen11288/elastigo/core"
 
     // Set the Elasticsearch Host to Connect to
     api.Domain = "localhost"
@@ -162,8 +162,8 @@ Adding content to Elasticsearch in Bulk
 
 example:
 
-    import "github.com/mattbaird/elastigo/api"
-    import "github.com/mattbaird/elastigo/core"
+    import "github.com/longnguyen11288/elastigo/api"
+    import "github.com/longnguyen11288/elastigo/core"
 
     // Set the Elasticsearch Host to Connect to
     api.Domain = "localhost"

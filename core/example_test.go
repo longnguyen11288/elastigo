@@ -14,8 +14,8 @@ package core_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/mattbaird/elastigo/api"
-	"github.com/mattbaird/elastigo/core"
+	"github.com/longnguyen11288/elastigo/api"
+	"github.com/longnguyen11288/elastigo/core"
 	"strconv"
 	"time"
 )
